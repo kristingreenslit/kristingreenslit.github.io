@@ -23,6 +23,7 @@ h6 {
 
 .topnav {
     font-size: 14px;
+    /*background-color: #e7f3f2;*/
 }
 
 .lead {
@@ -34,9 +35,9 @@ h6 {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    color: #1894D2;
-    /*color: gray;*/
-    /*background-color: #e7f3f2;*/
+    /*color: #1894D2;*/
+    color: gray;
+    background-color: #e7f3f2;
     /*background: url(../img/intro-bg.jpg) no-repeat center center;*/
     /*background-size: cover;*/
 }
@@ -50,7 +51,8 @@ h6 {
 .intro-message > h1 {
     margin: 0;
     /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
-    font-size: 5em;
+    /*font-size: 5em;*/
+    font-size: 4em;
 }
 
 .intro-divider {
@@ -165,7 +167,9 @@ h6 {
 footer {
     padding: 50px 0;
     /*background-color: #f8f8f8;*/
+    color: gray;
     color: #1894D2;
+    /*background-color: #e7f3f2;*/
 }
 
 p.copyright {
