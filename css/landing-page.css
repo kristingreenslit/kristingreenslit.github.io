@@ -168,6 +168,23 @@ ul.intro-social-buttons > li {
     margin-top: 0;
 }
 
+.footer-1 {
+  /*margin-top: 2%;*/
+  margin-right: 20px;
+}
+
+footer {
+  padding: 2% 0 1% 0;
+  margin-top: 2%;
+  /*background-color: white;*/
+  color: gray;
+  background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         float: left;
@@ -191,15 +208,4 @@ ul.intro-social-buttons > li {
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
     }
-}
-
-footer {
-    /*padding: 50px 0;*/
-    background-color: white;
-    color: gray;
-    /*background-color: #e7f3f2;*/
-}
-
-p.copyright {
-    margin: 15px 0 0;
 }
