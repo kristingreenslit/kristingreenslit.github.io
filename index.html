@@ -42,8 +42,10 @@
                   <!-- <img src="images/headshot.jpg" class="img-responsive img-head" alt="Kristin Greenslit picture"> -->
                     <div class="intro-message">
                       <div id="box1">
-                        <h1>Kristin Greenslit</h1>
-                        <h3>Web Developer</h3>
+                        <div id="title">
+                            <h1>Kristin Greenslit</h1>
+                            <h3>Web Developer</h3>
+                        </div>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
                             <li><a href="https://twitter.com/kristingreens" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a></li>
@@ -57,15 +59,51 @@
         </div>
     </div>
 	<a  name="projects"></a>
+  <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Group Project: MenuBuilder</h2>
+                    <p class="lead">Technologies: HTML, CSS, Node.js, Express, JavaScript, jQuery, API Integration</p>
+                    <p>Collaborative group project built to help users view nutrition information prior to ordering a meal. Searching for a food item returns a list of menu items from the Nutritionix API. As the user selects individual menu items, a calculator updates in real time to display the meal's total nutritional value. The next phase of implementation will be to implement user authentication (using Passport.js and OAuth) and the ability to display previously saved meals. The site is optimized for desktop and mobile use. </p><br>
+                    <a href="https://github.com/jeffjones89/MenuBuilder" class="btn btn-default btn-sm" role="button" target="_blank">Code Repository</a>
+                    <a href="https://wdi-menubuilder.herokuapp.com/" class="btn btn-default btn-sm" role="button" target="_blank">Live Demo</a><br><br><br>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                  <a href="https://wdi-menubuilder.herokuapp.com/" target="_blank"><img class="img-responsive img-thumbnail img1" src=images/menu_builder.png></a><br><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Project: TechAssess</h2>
+                    <p class="lead">Technologies: HTML, CSS, Ruby, Ruby on Rails, ERB</p>
+                    <p>An assessment tool that prompts users to answer questions about their computer's health as well as how often maintenance steps are performed. A risk level score is provided to the user based on answers to the questions. Articles are also provided to help each user learn about topics such as safe browsing habits and operating system updates. The goal is to help users understand what could be done on a routine basis to prevent catastrophic events such as data loss, mechanical failure, or identity theft.</p><br>
+                    <a href="https://github.com/kristingreenslit/tech-assess" class="btn btn-default btn-sm" role="button" target="_blank">Code Repository</a>
+                    <a href="http://www.techassess.me/" class="btn btn-default btn-sm" role="button" target="_blank">Live Demo</a><br><br><br>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                  <a href="http://www.techassess.me/" target="_blank"><img class="img-responsive img-thumbnail img1" src=images/tech_assess_comp3.png></a><br><br>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="content-section-a">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Project: Memory Game</h2>
+                    <h2 class="section-heading">Project: Deduction Game</h2>
                         <p class="lead">Technologies: HTML, CSS, JavaScript, jQuery</p>
-                        <p>A simple concentration game to help freelance workers become more familiar with self-employed tax benefits.</p><br>
+                        <p>A single-player memory concentration game to help freelance workers become more familiar with self-employed tax benefits. Two tiles are evaluated for each round of play. If the two tiles chosen are a match, the matched tiles are cleared from the game board and the counter for correct guesses increases by one. If the two tiles chosen are a mismatch, the counter increases by one for incorrectly guessed matches and the tiles return to their hidden state until they are matched correctly.</p><br>
                         <a href="https://github.com/kristingreenslit/GA-Project-1-Game-App/tree/master" class="btn btn-default btn-sm" role="button" target="_blank">Code Repository</a>
                         <a href="http://www.deductiongame.com/" class="btn btn-default btn-sm" role="button" target="_blank">Live Demo</a><br><br><br>
                     <!-- <p class="lead">Rails with API Integration</p>
@@ -78,65 +116,25 @@
             </div>
         </div>
     </div>
+
     <div class="content-section-b">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Project: Tech Assessment Tool</h2>
-                    <p class="lead">Technologies: HTML, CSS, Ruby, Ruby on Rails, ERB</p>
-                    <p>Users are asked questions about their computer's health as well as how often maintenance steps are performed. By learning about topics such as safe browsing habits and operating system updates, users can take an active approach towards preventing data loss and resolving  mechanical issues.</p><br>
-                    <a href="https://github.com/kristingreenslit/tech-assess" class="btn btn-default btn-sm" role="button" target="_blank">Code Repository</a>
-                    <a href="http://www.techassess.me/" class="btn btn-default btn-sm" role="button" target="_blank">Live Demo</a><br><br><br>
+                    <h2 class="section-heading">Project: Job Trackr</h2>
+                    <p class="lead">Technologies: HTML, CSS, Ruby, Ruby on Rails, ERB, JavaScript, jQuery</p>
+                    <p>A responsive site that organizes an applicant's job search by storing data associated with the application process in one location. Users sign in and log application information after they've applied for a job (such as the date applied, a link to the job post, and a link to the resume and cover letter version submitted). Each application record can be viewed separately or in a summary view of all applications. Users can add notes to an application, delete an application, and add an application as needed. </p><br>
+                    <a href="https://github.com/kristingreenslit/job-trackr" class="btn btn-default btn-sm" role="button" target="_blank">Code Repository</a>
+                    <a href="http://www.jobtrackr.me/" class="btn btn-default btn-sm" role="button" target="_blank">Live Demo</a><br><br><br>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <a href="http://www.techassess.me/" target="_blank"><img class="img-responsive img-thumbnail img1" src=images/tech_assess_comp3.png></a><br><br>
+                  <a href="http://www.jobtrackr.me/" target="_blank"><img class="img-responsive img-thumbnail img1" src=images/job_trackr.png></a><br><br>
                 </div>
             </div>
         </div>
     </div>
-  <div class="content-section-a">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Group Project: Menu Builder</h2>
-                    <p class="lead">Technologies: HTML, CSS, Node.js, Express, JavaScript, jQuery, API Integration</p>
-                    <p>Searching for a food item or restaurant name returns a list of menu items from the Nutritionix API. As the user selects individual menu items, a calculator updates in real time to display the meal's total nutritional value.</p><br>
-                    <a href="https://github.com/jeffjones89/MenuBuilder" class="btn btn-default btn-sm" role="button" target="_blank">Code Repository</a>
-                    <a href="https://wdi-menubuilder.herokuapp.com/" class="btn btn-default btn-sm" role="button" target="_blank">Live Demo</a><br><br><br>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                  <a href="https://wdi-menubuilder.herokuapp.com/" target="_blank"><img class="img-responsive img-thumbnail img1" src=images/menu_builder.png></a><br><br>
-                </div>
-            </div>
-        </div>
-    </div>
-	<!-- <a  name="contact"></a>
-    <div class="banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Connect to Start</h2>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://example.com" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        <li>
-                            <a href="https://example.com" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div> -->
     <footer>
         <div class="container">
             <div class="row">
